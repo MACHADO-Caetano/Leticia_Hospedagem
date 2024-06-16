@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo do Sertanejo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    .ajustarImagem img{
+            height: 450px;
+            width: 100%;
+        }
+    @media screen and (max-width: 576px){
+        .ajustarImagem img{
+            height: 200px;
+        }
+    }
+</style>
+
+<body style="background-color:beige">
+    <header class="text-white text-center p-3" style="background-color: rgb(190, 113, 124); font-style: oblique;";>
+        <h1>Maiores Sucessos do Sertanejo!</h1>
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: rgb(145, 79, 101);" >
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Logo</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cantores</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="luan.html">Luan Santana</a></li>
+                          <li><a class="dropdown-item" href="marilia.html">Marilía Mendonça</a></li>
+                          <li><a class="dropdown-item" href="hej.html">Henrique e Juliano</a></li>
+                          <li><a class="dropdown-item" href="#">Gustavo Mioto</a></li>
+                            </li>
+                             <li><a class="dropdown-item" href="#">Jorge e Mateus</a></li>
+                             </li>
+                             <li><a class="dropdown-item" href="#">Zé Neto e Cristiano</a>
+                            </li>
+                         </ul>
+                     </li><!--Final dropdown-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="./clientes.html">Clientes</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div style="display: flex;" id="demo" class="carousel slide w-50 mx-auto border border-2" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+        </div>
+      
+        <div class="carousel-inner border border-3 border-black ajustarImagem">
+          <div class="carousel-item active">
+            <img src="./images/luan.webp"  class="d-block">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Marilia-mendonca-1.webp" class="d-block">
+          </div>
+          <div class="carousel-item">
+            <img  src="./images/hej.jpg"  class="d-block">
+          </div>
+          <div class="carousel-item">
+            <img  src="./images/gustavo_mioto.jpg" class="d-block">
+          </div>
+          <div class="carousel-item">
+            <img  src="./images/jem.jpg" class="d-block">
+          </div>
+          <div class="carousel-item">
+            <img  src="./images/zec.jpg" class="d-block">
+          </div>
+        </div>
+      
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+<br>
+    <main class="container-fluid">
+        <div class="row mx-auto p-2">
+            <div class="col-lg-4 col-md-6 p-2 border border-2 border-black">
+                <div class="card mx-auto">
+                    <img style="height: 300px;" class="card-img-top w-100"
+                        src="https://midias.correiobraziliense.com.br/_midias/jpg/2023/01/21/675x450/1_luan_santana-27300962.jpg?20230825121455?20230825121455"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Luan Santana</h4>
+                        <p class="card-text">Luan Rafael Domingos Santana é um cantor e compositor brasileiro. Iniciou sua carreira em 2009, com o lançamento do álbum independente Tô de Cara, e chegou ao estrelato com a canção "Meteoro".</p>
+                        <button class="btn btn-primary">
+                            <a class="text-white" href="luan.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Luan Santana: Informações">Saiba Mais</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-2 border border-2 border-black">
+                <div class="card mx-auto">
+                    <img style="height: 300px;" class="card-img-top w-100"
+                        src="https://t2.tudocdn.net/682586?w=824&h=494"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Marília Mendonça</h4>
+                        <p class="card-text">Marília Dias Mendonça foi uma cantora, compositora e instrumentista brasileira. Reconhecida como líder do subgênero musical feminejo, sua contribuição para o empoderamento feminino revolucionou o universo da música sertaneja entre as décadas de 2010 e 2020.</p>
+                        <button class="btn btn-primary">
+                            <a class="text-white" href="marilia.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Marília Mendonça: Informações">Saiba Mais</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-2 border border-2 border-black">
+                <div class="card mx-auto">
+                    <img style="height:300px;" class="card-img-top"
+                        src="https://akamai.sscdn.co/uploadfile/letras/fotos/8/f/0/6/8f0603b942e51fcd335fddde828b62cc.jpg"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Henrique e Juliano</h4>
+                        <p class="card-text">Henrique & Juliano é uma dupla sertaneja formada pelos irmãos Ricelly Henrique Tavares Reis e Edson Alves dos Reis Junior, ambos nascidos na cidade de Palmeirópolis no interior do estado do Tocantins.</p>
+                        <button class="btn btn-primary">
+                            <a class="text-white" href="hej.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Henrique & Juliano: Informações">Saiba Mais</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-2 border border-2 border-black">
+                <div class="card mx-auto">
+                    <img style="height: 300px;" class="card-img-top"
+                        src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d8cd0169cc8e6c008451caa6"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Gustavo Mioto</h4>
+                        <p class="card-text">Gustavo Pieroni Mioto é um cantor, compositor e multi-instrumentista brasileiro. Iniciou carreira em 2012 com seu álbum de estreia Fora de Moda. Mioto tornou-se conhecido a nível nacional com a música "Impressionando os Anjos", sua primeira a chegar a primeira posição da tabela Top 100 Brasil. </p>
+                        <button class="btn btn-primary">
+                            <a class="text-white" href="https://www.instagram.com/gustavomioto?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Gustavo Mioto: instagram">Saiba Mais</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-2 border border-2 border-black">
+                <div class="card mx-auto">
+                    <img style="height: 300px;" class="card-img-top"
+                        src="https://www.kboing.com.br/fotos/imagens/5b3e11aec6920.jpg"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Jorge e Mateus</h4>
+                        <p class="card-text">Jorge & Mateus é uma dupla brasileira de música sertaneja, formada em Itumbiara em 2005 pelos cantores Jorge Barcelos e Mateus Liduário. Precursores do sertanejo universitário, Jorge & Mateus lançaram seu álbum de estreia em 2007, Ao Vivo em Goiânia, fortalecendo sua notoriedade. </p>
+                        <button class="btn btn-primary">
+                            <a class="text-white" href="https://www.instagram.com/jorgeemateus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Jorge e Mateus: Instagram">Saiba Mais</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-2 border border-2 border-black">
+                <div class="card mx-auto">
+                    <img style="height: 300px;" class="card-img-top"
+                        src="https://www.a12.com/source/files/originals/676x500_ze_neto_e_cristiano-038886.jpg"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Zé Neto e Cristiano</h4>
+                        <p class="card-text">Zé Neto & Cristiano é uma dupla sertaneja brasileira formada em 2011 na cidade de São José do Rio Preto pelos músicos Zé Neto e Cristiano Vaccari. Os músicos ganharam popularidade inicial em 2016, com o lançamento de Ao Vivo em São José do Rio Preto, que conteve a música "Seu Polícia".</p>
+                        <a href="#" class="btn btn-primary">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="bg-black text-center text-white p-2">
+        <p>&copy; Desenvolvido por ULBRA</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+</body>
+
+</html>
